@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" tiledversion="1.1.3" orientation="orthogonal" renderorder="right-down" width="185" height="33" tilewidth="16" tileheight="16" infinite="0" nextobjectid="328">
+ <tileset firstgid="1" name="lvl1_tiles" tilewidth="16" tileheight="16" tilecount="60" columns="20">
+  <image source="../images/level1_tiles.png" width="320" height="48"/>
+ </tileset>
+ <tileset firstgid="61" name="backgrounds" tilewidth="16" tileheight="16" tilecount="4000" columns="80">
+  <image source="../images/backgrounds.png" width="1295" height="815"/>
+ </tileset>
+ <layer name="bg" width="185" height="33">
+  <data encoding="base64" compression="zlib">
+   eJzt2tVuG0EUgOG1c11mCJQxSZkDZYYXKDMEyhgoY6BtyvgCZYZAGQNlDJQZHqG/VEW+suTZ2HFmfH7pu12td45m19rNsCwrw0OSpGOezrfMuaRrMt+S6ck+LpmezLdkerKPS6Yn8y2ZnuzjkunJfEumJ/u4WuXXIdxhWRGIRCd0Rhd0RTd0Rw/0RC/0Rh/0RT9EIRoxiHX4+1eZncy3WhnMYyaSkIwUpGI11mAt1mE9NmAjNmEztmArtiEN6Q7X8STfJfu4WqXMYxnyUYBCFOERHuMJnuIZnuMFXuIVXuMN3qIYJQ7X8STfJfOtVqSTZxMEIwShCEMzNEcLtEQrtEYbtEU7tEcHdEQ4Ipyu40m+S/ZxtVKYx1TEIR4JSMR8LMBCLMJiLMFSLMNyrMBKrEISkp2u40m+S+ZbMj3ZxyXTk/mW0q3/65uJ7diBncjCLuzGHuzFPj+dY0WSfVwqQSnK8A7v8QEf8Qmf8QVf8c0/p1ihZL4l1XdZuiX7uFpRiEYMYtEfAzAQgzAYQzAUwzAcIzASozAaYzAW4yr31N2m+i5LtzxZr/I1kywrzVJ/ft2PAziIQziMIzhauafuNtV3WbqlumaBXrGl/vz6HT/wE7/wG3/wt3JP3W2q77J0S2XNPPm/ocv92W4mfoul+i5Lt1TWzJP/G7rcn+1m4rdYOcxtLvJwDddxAzdxC7dxB3dxT8MZ9/aa6XJ/tpuJ32JVD7KsGqiJWqiNOqiLeqiPBmiIRmgc5O8zVsvba6bL/dlu8i2Wfnl7zXS5P9tNvsXSL1kztbKd6s+v9/EAD5GPAhSiKACuV1VI1kytakH2nl+boCmCEYJQhGn2XKtrsmZqjec3TsBETMJkTMFUTMN0zMBMzMJszMFczEMc4pGAxAC4XlUhWTO1jvEbj+METuIUTuMMzuIczuMCLuISLuMKriIbOchFXgBcr6qQrJkkSZLe/QMQSd7m
+  </data>
+ </layer>
+ <layer name="hidden" width="185" height="33">
+  <data encoding="base64" compression="zlib">
+   eJzt2bERACAMA7G07L8wI9BAgS3dZYJ85xkAAAAAAAAAAAAAGqzDwe80TjqNAwAAAAAAcIvdiXQa5zUbPuk0TjqNd/Nj0mkcaLIBeC0CQQ==
+  </data>
+ </layer>
+ <layer name="graphics" width="185" height="33">
+  <data encoding="base64" compression="zlib">
+   eJztnNly2zAMReWki5zu6SRt0y3T5aF7+9ZP7Hf1y0pPjQmCgCRAgqRsgzN3SIu27JBXRxAo5WKapguFXga98trrHanBt5qyef/roDfe9vbC29jn0uIc93rXaue4t/e57Rz3+hBq57i397ltxfHZ1VVnzBx4nWe5ptBjBsb+KOg46FbQOuhT0OegL9vXuH9W9nP7pxrtvV4a7Zddq7WxSorjt4PuBN3dvv4a9C3ou0H/mvSP8vjbxnKOL5vjVD+Cfgb9MujnPD3C4++UY6Up74W/YbRfdq225Pi87T8fWB+Cx53jy+F4K6V8fggeH+2XXautOT7S5z2+dwked47353jPNvzmHnEPfNfGU6M8TnNP62m8X/AcjP4NLTxuwXHJ9WNO1hy/H/Qg6CHZTn3+obHo76K5JU6Y62fMa4vx5jTat61ilWmyicet/W3h80eR7SNjMkluKTfH9P10HaI0x+kcb8tyqb/pOlJqe8zjHM+xngU9D3qhHAPN51JjoeU4XYfQxl8QU432bW+OUzbMie2UJTHGWHCcrjOltqc83nNOwZfc8VhzvckdnzUePzSOUzbMiu0xxlhwPLbOxG3Pebz0vC4992P/Agu447HG59xamXP8ZqmNx2vjFGBIbTx+D+lx0JOg08xnWuRVYp4BnnPHoyXPnePXC8fx1jXnNYm/a/OUvT3O+Rbz3DJuwft0jt8s1AuYh9x5+DKiWL5OohTHS88PknNTT45TnreKW5zj1wvHcexx6XjBONEYOJYHkbBZe5xQjfZ4yq9w7FrFLZTjNBcDhdu+7xz/vYp7y8LjsTwI50PctsiP430uieMcz7G0c24Rj8N4j/ZvC47/WV39nfQ60MLjsTxIq3sDchynOeyWHi9ViuOxfGGtxzdzvkKqPYdaiTvuSuJx/HdaenxN6lqVrCuN5LhWWl7HVHLPwVI9bsFxKK08jvcnVS6Gl/o99/xeL4/H1tNAkvhb6u8afizR49x1sDXHPzKKseBk+u/xk624PLhEqRg+l2fH7+PimNp1b0mhHo+tm+VYxV2n1qjlPbzS51kk/JKMDefxv0exGbnyQWmN5wA8Dp7j/mcAtLm+zWfofUvauJzuH/q4MRwZq6TuS+nNcc2xJsntgOg5jPIrd47TcPw07OjpMT8n1Cs18bNk/RyL8yjH7fNJxm86X7n9g8fxtSgt2r5Wz/9oj5kRPqc8p+cwmoMoPcdJY5UYl2tYoPX4PMlyhSXPdkp43uu+8ZgXa2vNeOTYZfWbrHIMMO818TgXP9TkpKX3iGDlOFvqcUlMo/FG7TortC39LWX1iGfprJ43T3E8FfN6n/ftet8/jI7ARg==
+  </data>
+ </layer>
+ <objectgroup name="wall">
+  <object id="275" x="0" y="16" width="16" height="496"/>
+  <object id="277" x="16" y="512">
+   <polyline points="0,0 144,0 144,-32 176,-32 176,-64 464,-64 464,-48 240,-48 240,0 672,0 672,-16 688,-16 688,-32 672,-32 672,-48 544,-48 544,-64 736,-64 736,-48 752,-48 752,-32 736,-32 736,-16 752,-16 752,0 1024,0 1024,-16 1040,-16 1040,-32 1024,-32 1024,-48 816,-48 816,-64 1040,-64 1040,-176 848,-176 848,-192 1104,-192 1104,-176 1088,-176 1088,-80 1104,-80 1104,-48 1136,-48 1136,-16 1168,-16 1168,0 1552,0 1552,-16 1648,-16 1648,-32 1680,-32 1680,-64 1712,-64 1712,-96 1744,-96 1744,-112 1776,-112 1776,-160 1760,-160 1760,-176 1744,-176 1744,-192 1728,-192 1728,-208 1712,-208 1712,-224 1696,-224 1696,-240 1952,-240 1952,-208 1984,-208 1984,-176 2000,-176 2000,-160 1984,-160 1984,-128 1904,-128 1904,-112 1888,-112 1888,-96 1872,-96 1872,-80 1744,-80 1744,-32 1952,-32 1952,0 2096,0 2096,-16 2256,-16 2256,-32 2272,-32 2272,-48 2256,-48 2256,-64 2128,-64 2128,-80 2512,-80 2512,-48 2544,-48 2544,-16 2576,-16 2576,0 2848,0 2848,16 0,16 0,0"/>
+  </object>
+  <object id="278" x="192" y="384">
+   <polyline points="0,0 64,0 64,-384 -176,-384 -176,-368 0,-368 0,-352 -16,-352 -16,-336 0,-336 0,-320 -16,-320 -16,-304 0,-304 0,-288 -16,-288 -16,-272 0,-272 0,-256 -16,-256 -16,-240 0,-240 0,-224 -16,-224 -16,-208 0,-208 0,-192 -16,-192 -16,-176 0,-176 0,-160 -16,-160 -16,-144 0,-144 0,-128 -16,-128 -16,-112 0,-112 0,-96 -16,-96 -16,-80 0,-80 0,-64 -16,-64 -16,-48 0,-48 0,-32 -16,-32 -16,-16 0,-16 0,0"/>
+  </object>
+  <object id="279" x="256" y="320" width="384" height="16"/>
+  <object id="280" x="656" y="400">
+   <polyline points="0,0 352,0 352,-16 160,-16 160,-32 144,-32 144,-48 160,-48 160,-64 144,-64 144,-80 160,-80 160,-96 144,-96 144,-112 160,-112 160,-128 144,-128 144,-144 160,-144 160,-160 144,-160 144,-176 480,-176 480,-160 496,-160 496,-144 512,-144 512,-128 528,-128 528,-112 912,-112 912,-16 1056,-16 1056,-32 1024,-32 1024,-64 992,-64 992,-96 960,-96 960,-128 896,-128 896,-144 848,-144 848,-128 672,-128 672,-144 624,-144 624,-128 560,-128 560,-144 528,-144 528,-176 512,-176 512,-192 144,-192 144,-208 160,-208 160,-240 -352,-240 -352,-224 48,-224 48,-208 64,-208 64,-192 -400,-192 -400,-176 64,-176 64,-160 48,-160 48,-144 64,-144 64,-128 48,-128 48,-112 64,-112 64,-48 32,-48 32,-16 0,-16 0,0"/>
+  </object>
+  <object id="281" x="1136" y="384" width="48" height="16"/>
+  <object id="282" x="1232" y="464" width="48" height="16"/>
+  <object id="283" x="1344" y="464" width="48" height="16"/>
+  <object id="284" x="1456" y="464" width="48" height="16"/>
+  <object id="285" x="256" y="80" width="1472" height="16"/>
+  <object id="286" x="1728" y="96" width="16" height="128"/>
+  <object id="287" x="1744" y="208" width="528" height="16"/>
+  <object id="288" x="2016" y="464" width="64" height="16"/>
+  <object id="289" x="2064" y="352" width="64" height="16"/>
+  <object id="290" x="2160" y="352" width="64" height="16"/>
+  <object id="291" x="2272" y="224" width="16" height="160"/>
+  <object id="292" x="2256" y="368" width="16" height="16"/>
+  <object id="293" x="2288" y="368" width="576" height="16"/>
+  <object id="294" x="2864" y="384" width="16" height="128"/>
+ </objectgroup>
+ <objectgroup name="treasures" visible="0">
+  <object id="295" x="352" y="384" width="16" height="16">
+   <properties>
+    <property name="Ruby" value=""/>
+   </properties>
+  </object>
+  <object id="296" x="352" y="416" width="16" height="16">
+   <properties>
+    <property name="Crown" value=""/>
+   </properties>
+  </object>
+  <object id="297" x="384" y="384" width="16" height="16">
+   <properties>
+    <property name="Crown" value=""/>
+   </properties>
+  </object>
+  <object id="298" x="384" y="416" width="16" height="16">
+   <properties>
+    <property name="Ruby" value=""/>
+   </properties>
+  </object>
+  <object id="299" x="416" y="384" width="16" height="16">
+   <properties>
+    <property name="Goblet" value=""/>
+   </properties>
+  </object>
+  <object id="300" x="416" y="416" width="16" height="16">
+   <properties>
+    <property name="Crown" value=""/>
+   </properties>
+  </object>
+  <object id="301" x="448" y="384" width="16" height="16">
+   <properties>
+    <property name="Crown" value=""/>
+   </properties>
+  </object>
+  <object id="302" x="448" y="416" width="16" height="16">
+   <properties>
+    <property name="Ruby" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="crystals" visible="0">
+  <object id="304" x="640" y="480" width="16" height="16"/>
+  <object id="305" x="992" y="480" width="16" height="16"/>
+  <object id="307" x="2224" y="464" width="16" height="16"/>
+  <object id="308" x="2800" y="480" width="16" height="16"/>
+  <object id="309" x="336" y="288" width="16" height="16"/>
+ </objectgroup>
+ <objectgroup name="enemies">
+  <object id="310" x="288" y="480" width="16" height="16">
+   <properties>
+    <property name="Crock" value=""/>
+   </properties>
+  </object>
+  <object id="311" x="352" y="480" width="16" height="16">
+   <properties>
+    <property name="Crock" value=""/>
+   </properties>
+  </object>
+  <object id="312" x="1008" y="416" width="16" height="16">
+   <properties>
+    <property name="Crock" value=""/>
+   </properties>
+  </object>
+  <object id="313" x="960" y="416" width="16" height="16">
+   <properties>
+    <property name="Crock" value=""/>
+   </properties>
+  </object>
+  <object id="314" x="912" y="416" width="16" height="16">
+   <properties>
+    <property name="Crock" value=""/>
+   </properties>
+  </object>
+  <object id="315" x="864" y="352" width="16" height="16">
+   <properties>
+    <property name="Crock" value=""/>
+   </properties>
+  </object>
+  <object id="316" x="944" y="352" width="16" height="16">
+   <properties>
+    <property name="Crock" value=""/>
+   </properties>
+  </object>
+  <object id="317" x="1024" y="288" width="16" height="16">
+   <properties>
+    <property name="Crock" value=""/>
+   </properties>
+  </object>
+  <object id="318" x="960" y="288" width="16" height="16">
+   <properties>
+    <property name="Crock" value=""/>
+   </properties>
+  </object>
+ </objectgroup>
+ <objectgroup name="sensors">
+  <object id="319" x="240" y="480" width="16" height="16"/>
+  <object id="320" x="688" y="480" width="16" height="16"/>
+  <object id="321" x="1056" y="416" width="16" height="16"/>
+  <object id="322" x="816" y="416" width="16" height="16"/>
+  <object id="323" x="1008" y="352" width="16" height="16"/>
+  <object id="324" x="800" y="352" width="16" height="16"/>
+  <object id="325" x="848" y="288" width="16" height="16"/>
+  <object id="326" x="1120" y="288" width="16" height="16"/>
+ </objectgroup>
+</map>
